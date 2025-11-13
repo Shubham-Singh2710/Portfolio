@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import OverlayMenu from "./OverlayMenu";
+import OverlayMenu from "./overlayMenu";
 import Logo from "../assets/Logo.png";
 import { FiMenu } from "react-icons/fi";
 
@@ -99,4 +99,5 @@ return()=>{
       <OverlayMenu isOpen={menuOpen} onClose={()=> setMenuOpen(false)}/>
     </>
   );
+
 }
