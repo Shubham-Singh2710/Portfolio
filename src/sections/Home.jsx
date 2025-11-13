@@ -1,5 +1,5 @@
 import React, { useMemo, useEffect, useState } from "react";
-import ParticlesBackground from "../components/particlesBackground";
+import ParticlesBackground from "../components/particlesbackground";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import avator from "../assets/avator.png";
@@ -196,4 +196,5 @@ export default function Home() {
     </section>
   );
 }
+
 
